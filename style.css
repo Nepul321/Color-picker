@@ -1,0 +1,69 @@
+body {
+    font-family: "Poppins", cursive;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+input {
+    border: none;
+    margin: 20px;
+    outline: none;
+}
+
+#container {
+    background-color: #8b008b;
+    height: 500px;
+    width: 75%;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+button {
+    background-color: lightblue;
+    font-size: 18px;
+    font-family: inherit;
+    border: 2px solid white;
+    border-radius: 8px;
+    outline: none;
+    color: #222;
+    cursor: pointer;
+    height: 42px;
+    width: 180px;
+}
+
+#copied-message {
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    background-color: darkmagenta;
+    display: none;
+}
+
+#colors {
+    width: 250px;
+    height: 20px;
+    font-family: inherit;
+    font-size: 18px;
+}
+
+#intro {
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    border-radius: 10px;
+}
