@@ -2,4 +2,4 @@
 
 A basic color picker with HTML, CSS and Javascript.
 
-Live Demo - 
+Live Demo - https://nepul321.github.io/Color-picker/
